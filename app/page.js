@@ -1,13 +1,11 @@
 export default function Home() {
   return (
-    <div>
-      <h1 className='border-4 border-green-600'>
-        Hello world!
-      </h1>
-      <h1 className='text-yellow-600'>
-        Hello world!
-      </h1>
-    </div>
+    <div class='p-8'>
+      <p>Hello world</p>
+      <br></br>
+      <button class='bg-blue-600 px-4 py-2'>Click me</button>
 
+
+    </div>
   )
 }
