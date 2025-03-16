@@ -1,6 +1,13 @@
 export default function Home() {
   return (
-    <h1 className='text-5xl text-center font-bold underline p-8 bg-indigo-400'>Hello world hello world</h1>
+    <div>
+      <h1 className='border-4 border-green-600'>
+        Hello world!
+      </h1>
+      <h1 className='text-yellow-600'>
+        Hello world!
+      </h1>
+    </div>
 
   )
 }
